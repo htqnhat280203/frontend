@@ -1,0 +1,1616 @@
+[
+  {
+    "id": "excel-002",
+    "name": "Coca-Cola 390ml",
+    "price": 12000,
+    "image": "https://product.hstatic.net/200000352097/product/29-6_e6d75e2b270f4d2db09ae097cdba66b7.jpg",
+    "unit": "chai",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt có ga chai PET 390ml, phù hợp bán lẻ tại cửa hàng tạp hóa.",
+    "badge": "Coca-Cola",
+    "variants": [
+      {
+        "id": "pack-6",
+        "label": "Lốc 6 chai",
+        "baseQuantity": 6,
+        "price": 72000
+      },
+      {
+        "id": "case-24",
+        "label": "Thùng 24 chai",
+        "baseQuantity": 24,
+        "price": 288000
+      }
+    ]
+  },
+  {
+    "id": "excel-003",
+    "name": "Pepsi 390ml",
+    "price": 10000,
+    "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/511/037/products/pepsinguyenbanchai390ml-1710926267286-fba368b8-6509-4b2a-b008-3f66f3757821.jpg?v=1718166282613",
+    "unit": "chai",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt có ga chai PET 390ml.",
+    "badge": "Pepsi"
+  },
+  {
+    "id": "excel-004",
+    "name": "7Up 390ml",
+    "price": 10000,
+    "image": "https://cdn.tgdd.vn/Products/Images/3265/76444/nuoc-ngot-7-up-vi-chanh-chai-390ml-thumb-600x600.jpg",
+    "unit": "chai",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt vị chanh chai PET 390ml.",
+    "badge": "7Up"
+  },
+  {
+    "id": "excel-005",
+    "name": "Mirinda Cam 390ml",
+    "price": 10000,
+    "image": "https://img.tgdd.vn/imgt/bhx/f_webp,fit_outside,quality_95,s_720x584/https://cdnv2.tgdd.vn/bhx-static/bhx/production/2026/9/image/Products/Images/2443/79140/bhx/mirinda-cam-330ml-sleek-lon_202609141430077523.jpg",
+    "unit": "chai",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt vị cam chai PET 390ml.",
+    "badge": "Mirinda"
+  },
+  {
+    "id": "excel-006",
+    "name": "Sting Dâu 330ml",
+    "price": 10000,
+    "image": "https://cdn.hstatic.net/products/200000903781/2_aee70b0424a24ff598e160b7e9406ec0_master.png",
+    "unit": "chai",
+    "category": "Nước tăng lực",
+    "description": "Nước tăng lực vị dâu chai 330ml.",
+    "badge": "Sting"
+  },
+  {
+    "id": "excel-007",
+    "name": "Number 1 330ml",
+    "price": 10000,
+    "image": "https://storage.googleapis.com/onelife-public/8936193070075.jpg",
+    "unit": "chai",
+    "category": "Nước tăng lực",
+    "description": "Nước tăng lực chai 330ml.",
+    "badge": "Number 1"
+  },
+  {
+    "id": "excel-008",
+    "name": "Aquafina 500ml",
+    "price": 7000,
+    "image": "https://product.hstatic.net/200000531683/product/nuoc_suoi_aquafina_500ml_0e1fa9958e1d4ecb991c2942f2d8b736_master.jpg",
+    "unit": "chai",
+    "category": "Nước suối",
+    "description": "Nước uống đóng chai 500ml.",
+    "badge": "Aquafina"
+  },
+  {
+    "id": "excel-009",
+    "name": "Dasani 500ml",
+    "price": 6000,
+    "image": "https://dasaniwater.vn/library/module_new/nuoc-suoi-dasani_l3455_0.jpg",
+    "unit": "chai",
+    "category": "Nước suối",
+    "description": "Nước khoáng đóng chai 500ml.",
+    "badge": "Lavie"
+  },
+  {
+    "id": "excel-010",
+    "name": "Coca-Cola 1.5L",
+    "price": 18000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt có ga chai PET 1.5L.",
+    "badge": "Coca-Cola"
+  },
+  {
+    "id": "excel-011",
+    "name": "Pepsi 1.5L",
+    "price": 17000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt có ga chai PET 1.5L.",
+    "badge": "Pepsi"
+  },
+  {
+    "id": "excel-012",
+    "name": "Vinamilk sữa tươi có đường 180ml",
+    "price": 8000,
+    "image": "https://www.lazada.com.my/products/sua-tuoi-tiet-trung-co-duong-180ml-vinamilk-fresh-milk-180ml-i2412010730.html",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa tươi tiệt trùng có đường hộp 180ml.",
+    "badge": "Vinamilk"
+  },
+  {
+    "id": "excel-013",
+    "name": "Vinamilk sữa tươi không đường 180ml",
+    "price": 8000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa tươi tiệt trùng không đường hộp 180ml.",
+    "badge": "Vinamilk"
+  },
+  {
+    "id": "excel-014",
+    "name": "Vinamilk Yomilk việt quất 170ml",
+    "price": 8000,
+    "image": "https://www.bachhoaxanh.com/sua-chua/thung-48-hop-sua-chua-uong-tiet-trung-vi-viet-quat-bac-ha-vinamilk-yomilk-170ml",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa chua uống tiệt trùng vị việt quất 170ml.",
+    "badge": "Vinamilk"
+  },
+  {
+    "id": "excel-015",
+    "name": "Milo 180ml",
+    "price": 9000,
+    "image": "https://cdn1.concung.com/2024/08/36786-112915-large_mobile/thuc-uong-lua-mach-uong-lien-nestle-milo-180ml-loc-4-hop.webp",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Thức uống lúa mạch Milo 180ml.",
+    "badge": "Nestlé Milo"
+  },
+  {
+    "id": "excel-016",
+    "name": "TH true MILK 180ml",
+    "price": 9000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa tươi tiệt trùng hộp 180ml.",
+    "badge": "TH true MILK"
+  },
+  {
+    "id": "excel-017",
+    "name": "Sữa đặc Ông Thọ 380g",
+    "price": 28000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Sữa",
+    "description": "Sữa đặc có đường lon 380g.",
+    "badge": "Vinamilk"
+  },
+  {
+    "id": "excel-018",
+    "name": "Mì Hảo Hảo Tôm Chua Cay 75g",
+    "price": 5000,
+    "image": "https://www.bachhoaxanh.com/mi/mi-hao-hao-tom-chua-cay-goi-75g",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì ăn liền vị tôm chua cay gói 75g.",
+    "badge": "Hảo Hảo"
+  },
+  {
+    "id": "excel-019",
+    "name": "Mì 3 Miền Tôm Chua Cay 65g",
+    "price": 4500,
+    "image": "https://unibenfoods.com/san-pham/3-mien/mi-3-mien-tom-chua-cay",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì ăn liền vị tôm chua cay gói 65g.",
+    "badge": "3 Miền"
+  },
+  {
+    "id": "excel-020",
+    "name": "Mì Omachi Sườn Hầm Ngũ Quả 100g",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì khoai tây vị sườn hầm ngũ quả.",
+    "badge": "Omachi"
+  },
+  {
+    "id": "excel-021",
+    "name": "Mì Kokomi Tôm Chua Cay 90g",
+    "price": 4500,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì ăn liền vị tôm chua cay gói 90g.",
+    "badge": "Kokomi"
+  },
+  {
+    "id": "excel-022",
+    "name": "Phở Đệ Nhất Bò Hầm 68g",
+    "price": 7000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì & phở ăn liền",
+    "description": "Phở ăn liền vị bò hầm.",
+    "badge": "Đệ Nhất"
+  },
+  {
+    "id": "excel-023",
+    "name": "Cháo Gấu Đỏ thịt bằm 50g",
+    "price": 6000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Cháo ăn liền",
+    "description": "Cháo ăn liền vị thịt bằm.",
+    "badge": "Gấu Đỏ"
+  },
+  {
+    "id": "excel-024",
+    "name": "Gạo ST25 5kg",
+    "price": 190000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Gạo",
+    "description": "Gạo ST25 túi 5kg, dùng cho gia đình.",
+    "badge": "ST25"
+  },
+  {
+    "id": "excel-025",
+    "name": "Gạo Jasmine 5kg",
+    "price": 110000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Gạo",
+    "description": "Gạo thơm Jasmine túi 5kg.",
+    "badge": "Gạo Việt"
+  },
+  {
+    "id": "excel-026",
+    "name": "Gạo trắng 5kg",
+    "price": 85000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Gạo",
+    "description": "Gạo trắng túi 5kg.",
+    "badge": "Gạo Việt"
+  },
+  {
+    "id": "excel-027",
+    "name": "Trứng gà 10 quả",
+    "price": 40000,
+    "image": "https://img.tgdd.vn/imgt/bhx/f_webp,fit_outside,quality_95,s_720x740/https://cdn.tgdd.vn/Products/Images/8783/228775/bhx/hop-10-trung-ga-tuoi-qlegg-202011040900362921.jpg",
+    "unit": "vỉ",
+    "category": "Trứng",
+    "description": "Trứng gà đóng vỉ 10 quả.",
+    "badge": "VFood"
+  },
+  {
+    "id": "excel-028",
+    "name": "Trứng vịt 10 quả",
+    "price": 42000,
+    "image": "/product-placeholder.svg",
+    "unit": "vỉ",
+    "category": "Trứng",
+    "description": "Trứng vịt đóng vỉ 10 quả.",
+    "badge": "VFood"
+  },
+  {
+    "id": "excel-029",
+    "name": "Dầu ăn Tường An 1L",
+    "price": 60000,
+    "image": "https://websosanh.vn/s/d%E1%BA%A7u%2B%C4%83n%2Bt%C6%B0%E1%BB%9Dng%2Ban%2B1l.htm",
+    "unit": "chai",
+    "category": "Dầu ăn",
+    "description": "Dầu thực vật chai 1L.",
+    "badge": "Tường An"
+  },
+  {
+    "id": "excel-030",
+    "name": "Dầu đậu nành Simply 1L",
+    "price": 60000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Dầu ăn",
+    "description": "Dầu đậu nành chai 1L.",
+    "badge": "Simply"
+  },
+  {
+    "id": "excel-031",
+    "name": "Nước mắm Nam Ngư 500ml",
+    "price": 35000,
+    "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnktva9xbegdcd",
+    "unit": "chai",
+    "category": "Gia vị",
+    "description": "Nước mắm chai 500ml.",
+    "badge": "Nam Ngư"
+  },
+  {
+    "id": "excel-032",
+    "name": "Nước tương Chinsu 500ml",
+    "price": 25000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Gia vị",
+    "description": "Nước tương chai 500ml.",
+    "badge": "Chinsu"
+  },
+  {
+    "id": "excel-033",
+    "name": "Đường Biên Hòa 1kg",
+    "price": 30000,
+    "image": "https://sala.emartmall.com.vn/image/cache/catalog/products/8935015510447/8935015510447-2523-600x600.jpg",
+    "unit": "gói",
+    "category": "Gia vị",
+    "description": "Đường mía tinh luyện túi 1kg.",
+    "badge": "Biên Hòa"
+  },
+  {
+    "id": "excel-034",
+    "name": "Muối i-ốt 500g",
+    "price": 8000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Gia vị",
+    "description": "Muối i-ốt gói 500g.",
+    "badge": "Mekong"
+  },
+  {
+    "id": "excel-035",
+    "name": "Hạt nêm Knorr 170g",
+    "price": 22000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Gia vị",
+    "description": "Hạt nêm dùng cho món ăn gia đình.",
+    "badge": "Knorr"
+  },
+  {
+    "id": "excel-036",
+    "name": "Bột ngọt Ajinomoto 400g",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Gia vị",
+    "description": "Bột ngọt gói 400g.",
+    "badge": "Ajinomoto"
+  },
+  {
+    "id": "excel-037",
+    "name": "Oreo Original 133g",
+    "price": 18000,
+    "image": "https://media.naheed.pk/catalog/product/cache/2f2d0cb0c5f92580479e8350be94f387/1/0/1014614-1.jpg",
+    "unit": "gói",
+    "category": "Bánh quy",
+    "description": "Bánh quy sandwich cacao nhân kem vani 133g.",
+    "badge": "Oreo"
+  },
+  {
+    "id": "excel-038",
+    "name": "ChocoPie hộp 12 bánh",
+    "price": 60000,
+    "image": "https://nhaphanphoihangtieudung.net/bao-gia/banh-chocopie-hop-12-cai.html",
+    "unit": "hộp",
+    "category": "Bánh kẹo",
+    "description": "Bánh ChocoPie hộp 12 cái.",
+    "badge": "Orion"
+  },
+  {
+    "id": "excel-039",
+    "name": "Bánh AFC 200g",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Bánh quy",
+    "description": "Bánh quy giòn đóng gói.",
+    "badge": "Kinh Đô"
+  },
+  {
+    "id": "excel-040",
+    "name": "Bánh quy Cosy 336g",
+    "price": 35000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Bánh quy",
+    "description": "Bánh quy bơ sữa đóng gói.",
+    "badge": "Cosy"
+  },
+  {
+    "id": "excel-041",
+    "name": "Snack Poca 52g",
+    "price": 12000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Snack",
+    "description": "Khoai tây lát ăn vặt gói 52g.",
+    "badge": "Poca"
+  },
+  {
+    "id": "excel-042",
+    "name": "Snack Oishi 40g",
+    "price": 8000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Snack",
+    "description": "Snack ăn vặt gói nhỏ.",
+    "badge": "Oishi"
+  },
+  {
+    "id": "excel-043",
+    "name": "Kẹo Alpenliebe 90g",
+    "price": 18000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Kẹo",
+    "description": "Kẹo sữa caramel gói 90g.",
+    "badge": "Alpenliebe"
+  },
+  {
+    "id": "excel-044",
+    "name": "Kẹo Dynamite 90g",
+    "price": 18000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Kẹo",
+    "description": "Kẹo cứng vị trái cây.",
+    "badge": "Dynamite"
+  },
+  {
+    "id": "excel-045",
+    "name": "Cà phê G7 3in1 21 gói",
+    "price": 50000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Cà phê",
+    "description": "Cà phê hòa tan 3in1 hộp 21 gói.",
+    "badge": "G7"
+  },
+  {
+    "id": "excel-046",
+    "name": "Cà phê Trung Nguyên 500g",
+    "price": 85000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Cà phê",
+    "description": "Cà phê rang xay gói 500g.",
+    "badge": "Trung Nguyên"
+  },
+  {
+    "id": "excel-047",
+    "name": "Trà Cozy 25 túi lọc",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Trà",
+    "description": "Trà túi lọc dùng tại gia đình.",
+    "badge": "Cozy"
+  },
+  {
+    "id": "excel-048",
+    "name": "Bia Tiger 330ml",
+    "price": 22000,
+    "image": "https://www.bachhoaxanh.com/bia/bia-tiger-330ml",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "Tiger"
+  },
+  {
+    "id": "excel-049",
+    "name": "Bia Larue 330ml",
+    "price": 17000,
+    "image": "https://bizweb.dktcdn.net/thumb/grande/100/408/264/products/1018296bia-larue-330ml-8936029810042-jpeg.jpg?v=1603792390190",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "Larue"
+  },
+  {
+    "id": "excel-050",
+    "name": "Bia 333 330ml",
+    "price": 17000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "333"
+  },
+  {
+    "id": "excel-051",
+    "name": "Bia Heineken 330ml",
+    "price": 24000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "Heineken"
+  },
+  {
+    "id": "excel-052",
+    "name": "Bia Saigon Special 330ml",
+    "price": 19000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "Bia Saigon"
+  },
+  {
+    "id": "excel-053",
+    "name": "Bột giặt OMO 800g",
+    "price": 43000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Hóa phẩm",
+    "description": "Bột giặt túi 800g.",
+    "badge": "OMO"
+  },
+  {
+    "id": "excel-054",
+    "name": "Nước rửa chén Sunlight 750ml",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Hóa phẩm",
+    "description": "Nước rửa chén chai 750ml.",
+    "badge": "Sunlight"
+  },
+  {
+    "id": "excel-055",
+    "name": "Dầu gội Clear 650g",
+    "price": 115000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Chăm sóc cá nhân",
+    "description": "Dầu gội chai dung tích lớn.",
+    "badge": "Clear"
+  },
+  {
+    "id": "excel-056",
+    "name": "Kem đánh răng P/S 180g",
+    "price": 32000,
+    "image": "/product-placeholder.svg",
+    "unit": "tuýp",
+    "category": "Chăm sóc cá nhân",
+    "description": "Kem đánh răng tuýp 180g.",
+    "badge": "P/S"
+  },
+  {
+    "id": "excel-057",
+    "name": "Giấy vệ sinh 10 cuộn",
+    "price": 65000,
+    "image": "/product-placeholder.svg",
+    "unit": "lốc",
+    "category": "Giấy gia dụng",
+    "description": "Lốc giấy vệ sinh 10 cuộn.",
+    "badge": "Pulppy"
+  },
+  {
+    "id": "excel-058",
+    "name": "Khăn giấy rút 180 tờ",
+    "price": 18000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Giấy gia dụng",
+    "description": "Khăn giấy rút đóng gói.",
+    "badge": "Bless You"
+  },
+  {
+    "id": "excel-059",
+    "name": "Thuốc lá Vinataba",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "bao",
+    "category": "Thuốc lá",
+    "description": "Thuốc lá bao 20 điếu. Giá cần cập nhật theo quy định/đại lý.",
+    "badge": "Vinataba"
+  },
+  {
+    "id": "excel-060",
+    "name": "Thuốc lá Jet",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "bao",
+    "category": "Thuốc lá",
+    "description": "Thuốc lá bao 20 điếu. Giá cần cập nhật theo quy định/đại lý.",
+    "badge": "Jet"
+  },
+  {
+    "id": "excel-061",
+    "name": "Coca-Cola Zero Sugar 320ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt có ga không đường lon 320ml.",
+    "badge": "Coca-Cola"
+  },
+  {
+    "id": "excel-062",
+    "name": "Coca-Cola 320ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt có ga lon 320ml.",
+    "badge": "Coca-Cola"
+  },
+  {
+    "id": "excel-063",
+    "name": "Sprite 320ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt vị chanh lon 320ml.",
+    "badge": "Sprite"
+  },
+  {
+    "id": "excel-064",
+    "name": "Fanta Cam 320ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt vị cam lon 320ml.",
+    "badge": "Fanta"
+  },
+  {
+    "id": "excel-065",
+    "name": "Pepsi Không Calo 320ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt có ga không calo lon 320ml.",
+    "badge": "Pepsi"
+  },
+  {
+    "id": "excel-066",
+    "name": "Mountain Dew 390ml",
+    "price": 12000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Nước ngọt",
+    "description": "Nước giải khát có ga chai 390ml.",
+    "badge": "Mountain Dew"
+  },
+  {
+    "id": "excel-067",
+    "name": "Mirinda Xá Xị 390ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Nước ngọt",
+    "description": "Nước ngọt vị xá xị chai 390ml.",
+    "badge": "Mirinda"
+  },
+  {
+    "id": "excel-068",
+    "name": "Aquafina 1.5L",
+    "price": 12000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Nước suối",
+    "description": "Nước uống đóng chai 1.5L.",
+    "badge": "Aquafina"
+  },
+  {
+    "id": "excel-069",
+    "name": "Lavie 1.5L",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Nước suối",
+    "description": "Nước khoáng đóng chai 1.5L.",
+    "badge": "Lavie"
+  },
+  {
+    "id": "excel-070",
+    "name": "Revive Chanh Muối 500ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Nước thể thao",
+    "description": "Nước uống thể thao vị chanh muối 500ml.",
+    "badge": "Revive"
+  },
+  {
+    "id": "excel-071",
+    "name": "C2 Trà Xanh 455ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Trà đóng chai",
+    "description": "Trà xanh đóng chai 455ml.",
+    "badge": "C2"
+  },
+  {
+    "id": "excel-072",
+    "name": "Tea+ Oolong 455ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Trà đóng chai",
+    "description": "Trà ô long đóng chai 455ml.",
+    "badge": "Tea+"
+  },
+  {
+    "id": "excel-073",
+    "name": "Không Độ Trà Xanh 455ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Trà đóng chai",
+    "description": "Trà xanh đóng chai 455ml.",
+    "badge": "Không Độ"
+  },
+  {
+    "id": "excel-074",
+    "name": "Warrior Energy 330ml",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Nước tăng lực",
+    "description": "Nước tăng lực lon 330ml.",
+    "badge": "Warrior"
+  },
+  {
+    "id": "excel-075",
+    "name": "Red Bull 250ml",
+    "price": 12000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Nước tăng lực",
+    "description": "Nước tăng lực lon 250ml.",
+    "badge": "Red Bull"
+  },
+  {
+    "id": "excel-076",
+    "name": "Vinamilk 100% Sữa Tươi Có Đường 1L",
+    "price": 36000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa tươi tiệt trùng hộp 1L.",
+    "badge": "Vinamilk"
+  },
+  {
+    "id": "excel-077",
+    "name": "Vinamilk Green Farm 180ml",
+    "price": 9000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa tươi tiệt trùng hộp 180ml.",
+    "badge": "Vinamilk"
+  },
+  {
+    "id": "excel-078",
+    "name": "Vinamilk SuSu 110ml",
+    "price": 7000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa chua uống cho trẻ em 110ml.",
+    "badge": "Vinamilk"
+  },
+  {
+    "id": "excel-079",
+    "name": "Dutch Lady Sữa Tươi Có Đường 180ml",
+    "price": 8000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa tươi tiệt trùng có đường 180ml.",
+    "badge": "Dutch Lady"
+  },
+  {
+    "id": "excel-080",
+    "name": "Dutch Lady Sữa Tươi Không Đường 180ml",
+    "price": 8000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa tươi tiệt trùng không đường 180ml.",
+    "badge": "Dutch Lady"
+  },
+  {
+    "id": "excel-081",
+    "name": "TH true MILK Ít Đường 180ml",
+    "price": 9000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Sữa",
+    "description": "Sữa tươi tiệt trùng ít đường 180ml.",
+    "badge": "TH true MILK"
+  },
+  {
+    "id": "excel-082",
+    "name": "NutriBoost 297ml",
+    "price": 12000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Sữa dinh dưỡng",
+    "description": "Thức uống dinh dưỡng chai 297ml.",
+    "badge": "NutriBoost"
+  },
+  {
+    "id": "excel-083",
+    "name": "Ensure Gold 237ml",
+    "price": 45000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Sữa dinh dưỡng",
+    "description": "Sữa dinh dưỡng uống liền 237ml.",
+    "badge": "Ensure"
+  },
+  {
+    "id": "excel-084",
+    "name": "Ngôi Sao Phương Nam 380g",
+    "price": 26000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Sữa",
+    "description": "Sữa đặc có đường lon 380g.",
+    "badge": "Ngôi Sao Phương Nam"
+  },
+  {
+    "id": "excel-085",
+    "name": "Mì Hảo Hảo Sa Tế Hành Tím 75g",
+    "price": 5000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì ăn liền vị sa tế hành tím.",
+    "badge": "Hảo Hảo"
+  },
+  {
+    "id": "excel-086",
+    "name": "Mì Hảo Hảo Tôm Xào Chua Ngọt 75g",
+    "price": 5000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì ăn liền vị tôm xào chua ngọt.",
+    "badge": "Hảo Hảo"
+  },
+  {
+    "id": "excel-087",
+    "name": "Mì Modern Lẩu Thái Tôm 80g",
+    "price": 5000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì ăn liền vị lẩu Thái tôm.",
+    "badge": "Modern"
+  },
+  {
+    "id": "excel-088",
+    "name": "Mì Omachi Xốt Bò Hầm 105g",
+    "price": 11000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì khoai tây vị xốt bò hầm.",
+    "badge": "Omachi"
+  },
+  {
+    "id": "excel-089",
+    "name": "Mì Kokomi Bò Hầm Rau Thơm 90g",
+    "price": 4500,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì ăn liền vị bò hầm rau thơm.",
+    "badge": "Kokomi"
+  },
+  {
+    "id": "excel-090",
+    "name": "Mì 3 Miền Bò Hầm Rau Thơm 65g",
+    "price": 4500,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì ăn liền vị bò hầm rau thơm.",
+    "badge": "3 Miền"
+  },
+  {
+    "id": "excel-091",
+    "name": "Mì Đệ Nhất Sườn Hầm Ngũ Quả 82g",
+    "price": 7000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì ăn liền",
+    "description": "Mì ăn liền vị sườn hầm ngũ quả.",
+    "badge": "Đệ Nhất"
+  },
+  {
+    "id": "excel-092",
+    "name": "Phở Gà Vifon 60g",
+    "price": 7000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì & phở ăn liền",
+    "description": "Phở ăn liền vị gà.",
+    "badge": "Vifon"
+  },
+  {
+    "id": "excel-093",
+    "name": "Phở Bò Vifon 60g",
+    "price": 7000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì & phở ăn liền",
+    "description": "Phở ăn liền vị bò.",
+    "badge": "Vifon"
+  },
+  {
+    "id": "excel-094",
+    "name": "Bún Bò Huế Vifon 60g",
+    "price": 7000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Mì & phở ăn liền",
+    "description": "Bún bò Huế ăn liền.",
+    "badge": "Vifon"
+  },
+  {
+    "id": "excel-095",
+    "name": "Gạo ST25 10kg",
+    "price": 360000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Gạo",
+    "description": "Gạo ST25 túi 10kg.",
+    "badge": "ST25"
+  },
+  {
+    "id": "excel-096",
+    "name": "Gạo Jasmine 10kg",
+    "price": 210000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Gạo",
+    "description": "Gạo thơm Jasmine túi 10kg.",
+    "badge": "Gạo Việt"
+  },
+  {
+    "id": "excel-097",
+    "name": "Gạo Nàng Thơm 5kg",
+    "price": 120000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Gạo",
+    "description": "Gạo thơm túi 5kg.",
+    "badge": "Gạo Việt"
+  },
+  {
+    "id": "excel-098",
+    "name": "Gạo Lài Sữa 5kg",
+    "price": 125000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Gạo",
+    "description": "Gạo thơm Lài Sữa túi 5kg.",
+    "badge": "Gạo Việt"
+  },
+  {
+    "id": "excel-099",
+    "name": "Trứng gà 6 quả",
+    "price": 25000,
+    "image": "/product-placeholder.svg",
+    "unit": "vỉ",
+    "category": "Trứng",
+    "description": "Trứng gà đóng vỉ 6 quả.",
+    "badge": "VFood"
+  },
+  {
+    "id": "excel-100",
+    "name": "Trứng gà Omega 3 10 quả",
+    "price": 50000,
+    "image": "/product-placeholder.svg",
+    "unit": "vỉ",
+    "category": "Trứng",
+    "description": "Trứng gà Omega 3 đóng vỉ 10 quả.",
+    "badge": "Ba Huân"
+  },
+  {
+    "id": "excel-101",
+    "name": "Trứng gà ta 10 quả",
+    "price": 55000,
+    "image": "/product-placeholder.svg",
+    "unit": "vỉ",
+    "category": "Trứng",
+    "description": "Trứng gà ta đóng vỉ 10 quả.",
+    "badge": "Ba Huân"
+  },
+  {
+    "id": "excel-102",
+    "name": "Dầu ăn Neptune 1L",
+    "price": 60000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Dầu ăn",
+    "description": "Dầu ăn chai 1L.",
+    "badge": "Neptune"
+  },
+  {
+    "id": "excel-103",
+    "name": "Dầu ăn Simply 2L",
+    "price": 115000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Dầu ăn",
+    "description": "Dầu đậu nành chai 2L.",
+    "badge": "Simply"
+  },
+  {
+    "id": "excel-104",
+    "name": "Dầu ăn Meizan 1L",
+    "price": 55000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Dầu ăn",
+    "description": "Dầu thực vật chai 1L.",
+    "badge": "Meizan"
+  },
+  {
+    "id": "excel-105",
+    "name": "Nước mắm Chinsu Nam Ngư 750ml",
+    "price": 48000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Gia vị",
+    "description": "Nước mắm chai 750ml.",
+    "badge": "Chinsu"
+  },
+  {
+    "id": "excel-106",
+    "name": "Nước tương Maggi 700ml",
+    "price": 35000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Gia vị",
+    "description": "Nước tương chai 700ml.",
+    "badge": "Maggi"
+  },
+  {
+    "id": "excel-107",
+    "name": "Dầu hào Chinsu 250g",
+    "price": 25000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Gia vị",
+    "description": "Dầu hào chai 250g.",
+    "badge": "Chinsu"
+  },
+  {
+    "id": "excel-108",
+    "name": "Tương ớt Chinsu 250g",
+    "price": 18000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Gia vị",
+    "description": "Tương ớt chai 250g.",
+    "badge": "Chinsu"
+  },
+  {
+    "id": "excel-109",
+    "name": "Hạt nêm Knorr thịt thăn 400g",
+    "price": 50000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Gia vị",
+    "description": "Hạt nêm thịt thăn xương ống túi 400g.",
+    "badge": "Knorr"
+  },
+  {
+    "id": "excel-110",
+    "name": "Bột ngọt Ajinomoto 100g",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Gia vị",
+    "description": "Bột ngọt gói 100g.",
+    "badge": "Ajinomoto"
+  },
+  {
+    "id": "excel-111",
+    "name": "Muối i-ốt Bạc Liêu 500g",
+    "price": 8000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Gia vị",
+    "description": "Muối i-ốt gói 500g.",
+    "badge": "Bạc Liêu"
+  },
+  {
+    "id": "excel-112",
+    "name": "Đường Biên Hòa 500g",
+    "price": 16000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Gia vị",
+    "description": "Đường tinh luyện gói 500g.",
+    "badge": "Biên Hòa"
+  },
+  {
+    "id": "excel-113",
+    "name": "Oreo Chocolate 133g",
+    "price": 18000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Bánh quy",
+    "description": "Bánh quy sandwich cacao nhân kem.",
+    "badge": "Oreo"
+  },
+  {
+    "id": "excel-114",
+    "name": "Cosy Marie 336g",
+    "price": 35000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Bánh quy",
+    "description": "Bánh quy Marie đóng gói.",
+    "badge": "Cosy"
+  },
+  {
+    "id": "excel-115",
+    "name": "Danisa Butter Cookies 454g",
+    "price": 155000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Bánh quy",
+    "description": "Bánh quy bơ hộp 454g.",
+    "badge": "Danisa"
+  },
+  {
+    "id": "excel-116",
+    "name": "Hải Hà Kẹo Sữa 125g",
+    "price": 18000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Kẹo",
+    "description": "Kẹo sữa đóng gói.",
+    "badge": "Hải Hà"
+  },
+  {
+    "id": "excel-117",
+    "name": "Hữu Nghị Tipo 250g",
+    "price": 35000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Bánh",
+    "description": "Bánh trứng Tipo đóng gói.",
+    "badge": "Hữu Nghị"
+  },
+  {
+    "id": "excel-118",
+    "name": "Biscafun bánh quy 300g",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Bánh",
+    "description": "Bánh quy đóng gói.",
+    "badge": "Biscafun"
+  },
+  {
+    "id": "excel-119",
+    "name": "Bibica bánh bông lan 200g",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Bánh",
+    "description": "Bánh bông lan đóng gói.",
+    "badge": "Bibica"
+  },
+  {
+    "id": "excel-120",
+    "name": "Hải Châu bánh quy 200g",
+    "price": 25000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Bánh",
+    "description": "Bánh quy đóng gói.",
+    "badge": "Hải Châu"
+  },
+  {
+    "id": "excel-121",
+    "name": "Poca Vị Tảo Biển 52g",
+    "price": 12000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Snack",
+    "description": "Snack khoai tây vị tảo biển.",
+    "badge": "Poca"
+  },
+  {
+    "id": "excel-122",
+    "name": "Oishi Tôm Cay 40g",
+    "price": 8000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Snack",
+    "description": "Snack vị tôm cay.",
+    "badge": "Oishi"
+  },
+  {
+    "id": "excel-123",
+    "name": "Swing Khoai Tây 80g",
+    "price": 15000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Snack",
+    "description": "Snack khoai tây lát.",
+    "badge": "Swing"
+  },
+  {
+    "id": "excel-124",
+    "name": "Kẹo Mentos Mint 37.5g",
+    "price": 20000,
+    "image": "/product-placeholder.svg",
+    "unit": "tuýp",
+    "category": "Kẹo",
+    "description": "Kẹo bạc hà dạng viên.",
+    "badge": "Mentos"
+  },
+  {
+    "id": "excel-125",
+    "name": "Kẹo Sugus Trái Cây 50g",
+    "price": 15000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Kẹo",
+    "description": "Kẹo dẻo vị trái cây.",
+    "badge": "Sugus"
+  },
+  {
+    "id": "excel-126",
+    "name": "Cà phê G7 Hòa Tan 3in1 16 gói",
+    "price": 40000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Cà phê",
+    "description": "Cà phê hòa tan 3in1.",
+    "badge": "G7"
+  },
+  {
+    "id": "excel-127",
+    "name": "Cà phê Nescafé 3in1 17 gói",
+    "price": 40000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Cà phê",
+    "description": "Cà phê hòa tan 3in1.",
+    "badge": "Nescafé"
+  },
+  {
+    "id": "excel-128",
+    "name": "Cà phê Trung Nguyên Legend 200g",
+    "price": 55000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Cà phê",
+    "description": "Cà phê rang xay gói 200g.",
+    "badge": "Trung Nguyên"
+  },
+  {
+    "id": "excel-129",
+    "name": "Trà Lipton Yellow Label 25 túi",
+    "price": 35000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Trà",
+    "description": "Trà đen túi lọc 25 túi.",
+    "badge": "Lipton"
+  },
+  {
+    "id": "excel-130",
+    "name": "Trà Cozy Atiso 25 túi",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "hộp",
+    "category": "Trà",
+    "description": "Trà túi lọc vị atiso.",
+    "badge": "Cozy"
+  },
+  {
+    "id": "excel-131",
+    "name": "Bia Tiger Crystal 330ml",
+    "price": 22000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "Tiger"
+  },
+  {
+    "id": "excel-132",
+    "name": "Bia Heineken Silver 330ml",
+    "price": 24000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "Heineken"
+  },
+  {
+    "id": "excel-133",
+    "name": "Bia Bivina 330ml",
+    "price": 16000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "Bivina"
+  },
+  {
+    "id": "excel-134",
+    "name": "Bia Saigon Lager 330ml",
+    "price": 17000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "Bia Saigon"
+  },
+  {
+    "id": "excel-135",
+    "name": "Bia Hà Nội 330ml",
+    "price": 17000,
+    "image": "/product-placeholder.svg",
+    "unit": "lon",
+    "category": "Bia",
+    "description": "Bia lager lon 330ml.",
+    "badge": "Hanoi Beer"
+  },
+  {
+    "id": "excel-136",
+    "name": "Bột giặt OMO Matic 3kg",
+    "price": 160000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Hóa phẩm",
+    "description": "Nước/bột giặt dùng cho máy giặt, túi 3kg.",
+    "badge": "OMO"
+  },
+  {
+    "id": "excel-137",
+    "name": "Bột giặt Surf 3kg",
+    "price": 120000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Hóa phẩm",
+    "description": "Bột giặt túi 3kg.",
+    "badge": "Surf"
+  },
+  {
+    "id": "excel-138",
+    "name": "Nước giặt Comfort 2.6L",
+    "price": 140000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Hóa phẩm",
+    "description": "Nước giặt/xả túi dung tích lớn.",
+    "badge": "Comfort"
+  },
+  {
+    "id": "excel-139",
+    "name": "Nước xả Comfort 800ml",
+    "price": 60000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Hóa phẩm",
+    "description": "Nước xả vải chai 800ml.",
+    "badge": "Comfort"
+  },
+  {
+    "id": "excel-140",
+    "name": "Nước lau sàn Sunlight 1L",
+    "price": 45000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Hóa phẩm",
+    "description": "Nước lau sàn chai 1L.",
+    "badge": "Sunlight"
+  },
+  {
+    "id": "excel-141",
+    "name": "Nước tẩy Vim 500ml",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Hóa phẩm",
+    "description": "Nước tẩy rửa nhà vệ sinh chai 500ml.",
+    "badge": "Vim"
+  },
+  {
+    "id": "excel-142",
+    "name": "Nước rửa tay Lifebuoy 250ml",
+    "price": 35000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Chăm sóc cá nhân",
+    "description": "Nước rửa tay chai 250ml.",
+    "badge": "Lifebuoy"
+  },
+  {
+    "id": "excel-143",
+    "name": "Dầu gội Sunsilk 650g",
+    "price": 115000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Chăm sóc cá nhân",
+    "description": "Dầu gội chai 650g.",
+    "badge": "Sunsilk"
+  },
+  {
+    "id": "excel-144",
+    "name": "Dầu gội Clear Men 650g",
+    "price": 125000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Chăm sóc cá nhân",
+    "description": "Dầu gội nam chai 650g.",
+    "badge": "Clear Men"
+  },
+  {
+    "id": "excel-145",
+    "name": "Dầu gội Dove 650g",
+    "price": 125000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Chăm sóc cá nhân",
+    "description": "Dầu gội chai 650g.",
+    "badge": "Dove"
+  },
+  {
+    "id": "excel-146",
+    "name": "Sữa rửa mặt POND'S 100g",
+    "price": 60000,
+    "image": "/product-placeholder.svg",
+    "unit": "tuýp",
+    "category": "Chăm sóc cá nhân",
+    "description": "Sữa rửa mặt tuýp 100g.",
+    "badge": "POND'S"
+  },
+  {
+    "id": "excel-147",
+    "name": "Kem đánh răng Closeup 180g",
+    "price": 35000,
+    "image": "/product-placeholder.svg",
+    "unit": "tuýp",
+    "category": "Chăm sóc cá nhân",
+    "description": "Kem đánh răng tuýp 180g.",
+    "badge": "Closeup"
+  },
+  {
+    "id": "excel-148",
+    "name": "Xà phòng Lifebuoy 90g",
+    "price": 10000,
+    "image": "/product-placeholder.svg",
+    "unit": "bánh",
+    "category": "Chăm sóc cá nhân",
+    "description": "Xà phòng bánh 90g.",
+    "badge": "Lifebuoy"
+  },
+  {
+    "id": "excel-149",
+    "name": "Xà phòng Dove 90g",
+    "price": 18000,
+    "image": "/product-placeholder.svg",
+    "unit": "bánh",
+    "category": "Chăm sóc cá nhân",
+    "description": "Xà phòng dưỡng ẩm bánh 90g.",
+    "badge": "Dove"
+  },
+  {
+    "id": "excel-150",
+    "name": "Giấy vệ sinh Pulppy 12 cuộn",
+    "price": 75000,
+    "image": "/product-placeholder.svg",
+    "unit": "lốc",
+    "category": "Giấy gia dụng",
+    "description": "Lốc giấy vệ sinh 12 cuộn.",
+    "badge": "Pulppy"
+  },
+  {
+    "id": "excel-151",
+    "name": "Giấy vệ sinh Bless You 10 cuộn",
+    "price": 65000,
+    "image": "/product-placeholder.svg",
+    "unit": "lốc",
+    "category": "Giấy gia dụng",
+    "description": "Lốc giấy vệ sinh 10 cuộn.",
+    "badge": "Bless You"
+  },
+  {
+    "id": "excel-152",
+    "name": "Khăn giấy Tempo 3 lớp",
+    "price": 25000,
+    "image": "/product-placeholder.svg",
+    "unit": "gói",
+    "category": "Giấy gia dụng",
+    "description": "Khăn giấy gói 3 lớp.",
+    "badge": "Tempo"
+  },
+  {
+    "id": "excel-153",
+    "name": "Túi rác tự hủy 45x55cm",
+    "price": 25000,
+    "image": "/product-placeholder.svg",
+    "unit": "cuộn",
+    "category": "Đồ gia dụng",
+    "description": "Túi rác cuộn kích thước phổ biến.",
+    "badge": "Duy Tân"
+  },
+  {
+    "id": "excel-154",
+    "name": "Màng bọc thực phẩm 30cm",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "cuộn",
+    "category": "Đồ gia dụng",
+    "description": "Màng bọc thực phẩm cuộn.",
+    "badge": "Ringo"
+  },
+  {
+    "id": "excel-155",
+    "name": "Nước lau kính Gift 500ml",
+    "price": 30000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Hóa phẩm",
+    "description": "Nước lau kính chai 500ml.",
+    "badge": "Gift"
+  },
+  {
+    "id": "excel-156",
+    "name": "Nước giặt Ariel 2.4kg",
+    "price": 145000,
+    "image": "/product-placeholder.svg",
+    "unit": "túi",
+    "category": "Hóa phẩm",
+    "description": "Nước giặt túi 2.4kg.",
+    "badge": "Ariel"
+  },
+  {
+    "id": "excel-157",
+    "name": "Dầu gội Pantene 650ml",
+    "price": 120000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Chăm sóc cá nhân",
+    "description": "Dầu gội chai 650ml.",
+    "badge": "Pantene"
+  },
+  {
+    "id": "excel-158",
+    "name": "Sữa tắm Lifebuoy 850g",
+    "price": 110000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Chăm sóc cá nhân",
+    "description": "Sữa tắm chai 850g.",
+    "badge": "Lifebuoy"
+  },
+  {
+    "id": "excel-159",
+    "name": "Sữa tắm Dove 527g",
+    "price": 115000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Chăm sóc cá nhân",
+    "description": "Sữa tắm chai 527g.",
+    "badge": "Dove"
+  },
+  {
+    "id": "excel-160",
+    "name": "Nước hoa xịt phòng Glade 280ml",
+    "price": 70000,
+    "image": "/product-placeholder.svg",
+    "unit": "chai",
+    "category": "Hóa phẩm",
+    "description": "Nước hoa xịt phòng chai 280ml.",
+    "badge": "Glade"
+  },
+  {
+    "id": "excel-161",
+    "name": "Pin AA Panasonic 4 viên",
+    "price": 45000,
+    "image": "/product-placeholder.svg",
+    "unit": "vỉ",
+    "category": "Đồ gia dụng",
+    "description": "Pin AA đóng vỉ 4 viên.",
+    "badge": "Panasonic"
+  }
+]

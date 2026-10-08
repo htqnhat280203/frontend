@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hương Anh Market
 
-## Getting Started
+Cửa hàng tạp hóa xây dựng bằng Next.js App Router, React, TypeScript và Tailwind CSS.
 
-First, run the development server:
+## Cấu trúc dự án
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```text
+frontend/
+├── src/
+│   ├── app/                    # Route, page, layout, API và global styles
+│   ├── components/
+│   ├── data/                   # Catalog sản phẩm mẫu và cấu hình thanh toán
+│   ├── lib/                    # Supabase client, validation và helpers
+│   ├── store/                  # Cart, checkout, invoice, catalog state local
+│   ├── types/                  # Model dữ liệu nghiệp vụ
+│   └── utils/                  # Hàm hỗ trợ dùng chung
+├── supabase/
+│   └── migrations/             # Schema PostgreSQL cho Supabase
+├── public/
+├── .env.example                # Mẫu biến môi trường
+├── .gitignore
+├── next.config.ts
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Chạy dự án local
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+cp .env.example .env.local
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Truy cập http://localhost:3000.
 
-## Learn More
+> Lưu ý: nếu chưa cấu hình Supabase, app sẽ tự động fallback về dữ liệu mẫu trong `src/data/products` để vẫn chạy được.
 
-To learn more about Next.js, take a look at the following resources:
+## Cấu hình Supabase
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tạo project trên Supabase, sau đó điền các biến sau vào `.env.local`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+NEXT_PUBLIC_SUPABASE_URL=https://xxxxx.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=xxxxx
+SUPABASE_SERVICE_ROLE_KEY=xxxxx
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+```
 
-## Deploy on Vercel
+Sau đó chạy migration trong Supabase SQL Editor:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```sql
+-- xem file trong supabase/migrations/20260930000000_initial_schema.sql
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploy lên Vercel
+
+1. Push repository lên GitHub.
+2. Tạo project trên Vercel và import repo.
+3. Cấu hình environment variables với cùng tên như `.env.example`.
+4. Chọn framework: Next.js và deploy.
+5. Sau khi deploy, set domain production và cập nhật `NEXT_PUBLIC_SITE_URL` cho domain thật.
+
+## Dữ liệu
+
+- Giỏ hàng, checkout, hóa đơn, công nợ và catalog đang có phiên bản localStorage phục vụ demo và testing.
+- Khi dùng production, nên chuyển những dữ liệu quản trị và catalog sang Supabase với RLS + admin-only API.
+- Các API trong `src/app/api/` đã được scaffold để làm nền cho việc lưu dữ liệu thật trên web.
