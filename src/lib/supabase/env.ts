@@ -15,4 +15,6 @@ export const getAdminEmails = () =>
     .map((email) => email.trim().toLowerCase())
     .filter(Boolean);
 
+  export const getSupabaseServiceRoleKey = () => process.env.SUPABASE_SERVICE_ROLE_KEY;
+
 export const isSupabaseConfigured = () => getSupabaseEnvironment() !== null;

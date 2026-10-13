@@ -17,7 +17,6 @@ import {
 import { getProductCatalog } from "@/store/product-catalog-store";
 import { setCheckoutOrder } from "@/store/checkout-store";
 import type { CheckoutOrder } from "@/types/checkout";
-import { savePaidInvoice } from "@/store/invoice-store";
 import PaymentQrCarousel from "@/components/common/PaymentQrCarousel";
 import BrandMark from "@/components/layout/BrandMark";
 import { formatCurrency } from "@/utils/format-currency";
@@ -154,19 +153,10 @@ export default function HomePage() {
 
   const confirmCartPaymentReceived = () => {
     if (!paymentOrder) return;
-    const orderTotal = paymentOrder.items.reduce((sum, item) => sum + item.price * item.qty, 0);
-    savePaidInvoice({
-      id: paymentOrder.id,
-      items: paymentOrder.items,
-      total: orderTotal,
-      paidAt: new Date().toISOString(),
-      paymentMethod: selectedPaymentMethod.type === "cash" ? "Tiền mặt" : `Chuyển khoản ${selectedPaymentMethod.account.bankName}`,
-      status: "paid",
-    });
-    clearCart();
+    setCheckoutOrder(paymentOrder.items);
     setIsPaymentOpen(false);
     setIsCartOpen(false);
-    router.push("/checkout/success");
+    router.push("/checkout");
   };
 
   const goToPage = (page: number) => {
@@ -182,7 +172,7 @@ export default function HomePage() {
               <BrandMark size={44} />
               <div><div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-slate-400">Market</div><div className="text-[1.8rem] font-black leading-none text-[#6D341B]">Hương Anh</div></div>
             </div>
-            <nav className="flex items-center gap-2"><Link href="/admin/products" className="rounded-full border border-[#CFAE91] px-4 py-2 text-sm font-semibold text-slate-600 hover:border-[#CFAE91] hover:text-[#6D341B]">Quản lý hàng</Link><Link href="/admin/debts" className="rounded-full border border-[#f0dfba] bg-[#fffaf0] px-4 py-2 text-sm font-semibold text-[#9b690f]">Quản lý nợ</Link></nav>
+            <nav className="flex items-center gap-2"><Link href="/admin/invoices" className="rounded-full bg-[#814C2E] px-4 py-2 text-sm font-bold text-white">Quản lý mua hàng</Link><Link href="/admin/products" className="rounded-full border border-[#CFAE91] px-4 py-2 text-sm font-semibold text-slate-600 hover:border-[#CFAE91] hover:text-[#6D341B]">Quản lý hàng</Link><Link href="/admin/invoices" className="rounded-full border border-[#f0dfba] bg-[#fffaf0] px-4 py-2 text-sm font-semibold text-[#9b690f]">Quản lý nợ</Link></nav>
           </header>
 
           <section className="mt-6 grid gap-5 lg:grid-cols-[1.05fr_1.95fr]">
@@ -200,7 +190,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className="mt-5 flex flex-wrap items-center justify-between gap-4 rounded-[20px] border border-[#f8f4f0] bg-white px-5 py-4 shadow-[0_12px_30px_rgba(16,24,40,0.04)]"><div><h2 className="font-black text-slate-900">Bạn cần quản lý cửa hàng?</h2><p className="mt-1 text-sm text-slate-500">Cập nhật hàng hóa hoặc theo dõi các khoản khách còn thiếu.</p></div><div className="flex gap-2"><Link href="/admin/products" className="rounded-full border border-[#dfe8e1] px-4 py-2 text-sm font-bold text-[#0f7a41]">Hàng hóa</Link><Link href="/admin/debts" className="rounded-full border border-[#f0dfba] px-4 py-2 text-sm font-bold text-[#9b690f]">Công nợ</Link></div></section>
+          <section className="mt-5 flex flex-wrap items-center justify-between gap-4 rounded-[20px] border border-[#f8f4f0] bg-white px-5 py-4 shadow-[0_12px_30px_rgba(16,24,40,0.04)]"><div><h2 className="font-black text-slate-900">Bạn cần quản lý cửa hàng?</h2><p className="mt-1 text-sm text-slate-500">Cập nhật hàng hóa hoặc theo dõi các khoản khách còn thiếu.</p></div><div className="flex gap-2"><Link href="/admin/products" className="rounded-full border border-[#dfe8e1] px-4 py-2 text-sm font-bold text-[#0f7a41]">Hàng hóa</Link><Link href="/admin/invoices" className="rounded-full border border-[#f0dfba] px-4 py-2 text-sm font-bold text-[#9b690f]">Công nợ</Link></div></section>
         </div>
       </main>
     );
@@ -251,8 +241,11 @@ export default function HomePage() {
               <Link href="/admin/products" className="hidden rounded-full border border-[#CFAE91] bg-white px-4 py-2 text-sm font-semibold text-slate-600 transition hover:border-[#d6e6dc] hover:text-[#0f7a41] lg:block">
                 Quản lý hàng
               </Link>
-              <Link href="/admin/debts" className="hidden rounded-full border border-[#f0dfba] bg-[#fffaf0] px-4 py-2 text-sm font-semibold text-[#9b690f] transition hover:bg-[#fff4d9] lg:block">
+              <Link href="/admin/invoices" className="hidden rounded-full border border-[#f0dfba] bg-[#fffaf0] px-4 py-2 text-sm font-semibold text-[#9b690f] transition hover:bg-[#fff4d9] lg:block">
                 Quản lý nợ
+              </Link>
+              <Link href="/admin/invoices" className="hidden rounded-full bg-[#814C2E] px-4 py-2 text-sm font-bold text-white lg:block">
+                Quản lý mua hàng
               </Link>
               <button
                 type="button"
@@ -282,8 +275,9 @@ export default function HomePage() {
               <div className="rounded-2xl bg-[#fff8e9] p-3"><strong className="block text-lg text-[#6D341B]">1-2 giờ</strong><span className="text-slate-500">Giao hàng dự kiến</span></div>
             </div>
             <div className="mt-5 flex flex-wrap gap-2">
-              <Link href="/admin/products" className="rounded-full bg-[#6D341B] px-4 py-2 text-sm font-bold text-white">Quản lý hàng hóa</Link>
-              <Link href="/admin/debts" className="rounded-full border border-[#6D341B] bg-[#fffaf0] px-4 py-2 text-sm font-bold text-[#6D341B]">Theo dõi công nợ</Link>
+              <Link href="/admin/invoices" className="rounded-full bg-[#6D341B] px-4 py-2 text-sm font-bold text-white">Quản lý mua hàng</Link>
+              <Link href="/admin/products" className="rounded-full border border-[#6D341B] px-4 py-2 text-sm font-bold text-[#6D341B]">Quản lý hàng hóa</Link>
+              <Link href="/admin/invoices" className="rounded-full border border-[#6D341B] bg-[#fffaf0] px-4 py-2 text-sm font-bold text-[#6D341B]">Theo dõi công nợ</Link>
             </div>
           </div>
 
@@ -608,7 +602,7 @@ export default function HomePage() {
                   />
                 </div>
                 <p className="mt-3 text-center text-xs leading-5 text-slate-500">{selectedPaymentMethod.type === "cash" ? "Chỉ xác nhận sau khi nhân viên đã thu đủ tiền mặt." : "Chủ cửa hàng xác nhận sau khi đã kiểm tra tiền vào tài khoản."}</p>
-                <button type="button" onClick={confirmCartPaymentReceived} disabled={!paymentOrder} className="mt-3 w-full rounded-full bg-[#CFAE91] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#0d6938] disabled:cursor-not-allowed disabled:opacity-40">Xác nhận đã nhận tiền</button>
+                <button type="button" onClick={confirmCartPaymentReceived} disabled={!paymentOrder} className="mt-3 w-full rounded-full bg-[#CFAE91] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#0d6938] disabled:cursor-not-allowed disabled:opacity-40">Tiếp tục đặt hàng</button>
               </>
             ) : (
               <div className="mt-5 rounded-2xl border border-[#f5d9a6] bg-[#fff8e9] p-4 text-sm leading-6 text-[#8a5a00]">
