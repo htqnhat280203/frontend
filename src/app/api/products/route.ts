@@ -1,9 +1,11 @@
 import { products as fallbackProducts } from "@/data/products";
-import { isSupabaseConfigured } from "@/lib/supabase/env";
+import { getSupabaseConfigurationIssue, isSupabaseConfigured } from "@/lib/supabase/env";
 import { createClient } from "@/lib/supabase/server";
 import type { Product } from "@/types/product";
 
 export async function GET() {
+  const configurationIssue = getSupabaseConfigurationIssue();
+  if (configurationIssue) return Response.json({ error: configurationIssue }, { status: 503 });
   if (!isSupabaseConfigured()) return Response.json(fallbackProducts);
 
   const supabase = await createClient();

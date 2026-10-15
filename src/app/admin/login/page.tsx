@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/browser";
+import { getSupabaseConfigurationIssue } from "@/lib/supabase/env";
 
 export default function AdminLoginPage() {
   const router = useRouter();
@@ -18,6 +19,12 @@ export default function AdminLoginPage() {
     setIsSubmitting(true);
 
     try {
+      const configurationIssue = getSupabaseConfigurationIssue();
+      if (configurationIssue) {
+        setError(configurationIssue);
+        return;
+      }
+
       const supabase = createClient();
       if (!supabase) {
         setError("Chưa cấu hình URL và publishable key của Supabase.");
@@ -45,7 +52,8 @@ export default function AdminLoginPage() {
       router.replace("/admin/orders");
       router.refresh();
     } catch {
-      setError("Không kết nối được Supabase. Hãy kiểm tra URL, key và kết nối mạng.");
+      const configurationIssue = getSupabaseConfigurationIssue();
+      setError(configurationIssue ?? "Không kết nối được Supabase. Hãy kiểm tra URL, key và kết nối mạng.");
     } finally {
       setIsSubmitting(false);
     }
